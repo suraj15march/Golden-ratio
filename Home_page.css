@@ -1,0 +1,107 @@
+body {
+    background-color: #DDDDDD;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    line-height: none;
+    color: #333;
+    overflow-y: scroll;
+    text-align: center;
+    min-height: 700px;
+}
+
+.navbar {
+    background-color: black;
+    border-radius: 30px;
+    font-family: 'Bree Serif', serif;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li a:hover {
+    color: rgb(246, 184, 184)
+}
+
+.navbar input {
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+}
+.gallery {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px
+}
+
+.gallery-sidebar {
+    width: 400px
+}
+
+.gallery-main {
+    padding: 15px
+}
+
+ul.sidebar-list {
+    padding-top: 50px;
+    width: 300px
+}
+ul.sidebar-list li {
+    font-size: x-large;
+    display: block;
+    text-align: left;
+    padding: 5px 0
+}
+
+* {
+    box-sizing: border-box
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: groove 20px #f3c1eb;
+    border-radius: 25px;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    margin: 1%;
+}
+
+section {
+    height: none;
+    font-family: 'Bree Serif', serif;
+    margin: 3px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+p a:hover {
+    color: red;
+}
